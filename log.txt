@@ -20,3 +20,4 @@ https://www.baeldung.com/java-log-json-output
 
 
 https://ips-channel-gateway.ips-sit.cto-payments-makola.sdc-nonprod.caas.absa.co.za/health
+https://mkyong.com/webservices/jax-rs/restfull-java-client-with-java-net-url/
