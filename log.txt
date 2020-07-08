@@ -16,3 +16,7 @@ log4j.appender.stdout.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1
 
 
 https://www.baeldung.com/java-log-json-output
+
+
+
+https://ips-channel-gateway.ips-sit.cto-payments-makola.sdc-nonprod.caas.absa.co.za/health
