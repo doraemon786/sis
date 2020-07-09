@@ -21,3 +21,19 @@ https://www.baeldung.com/java-log-json-output
 
 https://ips-channel-gateway.ips-sit.cto-payments-makola.sdc-nonprod.caas.absa.co.za/health
 https://mkyong.com/webservices/jax-rs/restfull-java-client-with-java-net-url/
+
+
+
+ args=new String [] {" https://ips-channel-gateway.ips-sit.cto-payments-makola.sdc-nonprod.caas.absa.co.za/health"};
+    	if (args.length != 1) {
+            System.err.println("Usage: java Main <url>");
+            System.exit(1);
+        }
+
+        final String url =args[0];
+        System.out.println("GET " + url);
+        URLConnection connection = new URL(url).openConnection();
+        final InputStream inputStream = connection.getInputStream();
+        final InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
+        final BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+        System.out.println(bufferedReader.readLine());
