@@ -37,3 +37,21 @@ https://mkyong.com/webservices/jax-rs/restfull-java-client-with-java-net-url/
         final InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
         final BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
         System.out.println(bufferedReader.readLine());
+        
+        
+        
+        
+        	<dependency>
+			<groupId>org.jboss.resteasy</groupId>
+			<artifactId>resteasy-jaxrs</artifactId>
+			<version>2.2.1.GA</version>
+		</dependency>
+
+		<!-- <dependency> <groupId>org.jboss.resteasy</groupId> <artifactId>resteasy-jaxb-provider</artifactId> 
+			<version>2.2.0.GA</version> </dependency> -->
+
+		<dependency>
+			<groupId>org.jboss.resteasy</groupId>
+			<artifactId>resteasy-jackson-provider</artifactId>
+			<version>2.2.1.GA</version>
+		</dependency>
