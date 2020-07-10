@@ -118,3 +118,9 @@ https://mkyong.com/webservices/jax-rs/restfull-java-client-with-java-net-url/
 		}
 		
 		return "no exception";
+
+
+
+
+
+private static Logger LOGGER = LogManager.getLogger(RequestViewServiceImpl.class); 
