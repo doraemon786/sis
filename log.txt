@@ -124,3 +124,8 @@ https://mkyong.com/webservices/jax-rs/restfull-java-client-with-java-net-url/
 
 
 private static Logger LOGGER = LogManager.getLogger(RequestViewServiceImpl.class); 
+
+
+ClassLoader classLoader = getClass().getClassLoader();
+File file = new File(classLoader.getResource("somefile").getFile());
+System.out.println(file.getAbsolutePath()); 
